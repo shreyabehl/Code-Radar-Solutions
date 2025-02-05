@@ -7,7 +7,7 @@ int main() {
     char word[100]; 
 
     
-    printf("Enter a single word: ");
+    printf("Enter a single word: ", hello);
 
     
     scanf("%s", word);
