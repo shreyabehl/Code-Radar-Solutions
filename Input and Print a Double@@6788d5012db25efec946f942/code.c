@@ -4,7 +4,13 @@
 
 int main() {
     double num;
-    scanf("%lf", &num);  // Double-precision floating-point number input lena
-    printf("You entered: %lf\n", num);  // Inputed number print karna
+    
+    // User se double input lena
+    printf("Enter a number: ");
+    scanf("%lf", &num);
+    
+    // Output print karna
+    printf("You entered: %.4lf\n", num);  // 4 decimal places tak show karega
+    
     return 0;
 }
