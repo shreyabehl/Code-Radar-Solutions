@@ -1,16 +1,16 @@
 
 
+
 #include <stdio.h>
 
 int main() {
     double num;
-    
-    // User se double input lena
-    printf("Enter a number: ");
+
+    // Taking input
     scanf("%lf", &num);
-    
-    // Output print karna
-    printf("You entered: %.4lf\n", num);  // 4 decimal places tak show karega
-    
+
+    // Printing the entered double
+    printf("You entered: %lf\n", num);
+
     return 0;
 }
