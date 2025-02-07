@@ -7,10 +7,13 @@ int main() {
     double num;
 
     // Taking input
-    scanf("%lf", &num);
+    if (scanf("%lf", &num) != 1) {
+        printf("Invalid input!\n");
+        return 1; // Exit with error
+    }
 
     // Printing the entered double
-    printf("You entered: %lf\n", num);
+    printf("You entered: %.4lf\n", num); // 4 decimal places
 
     return 0;
 }
