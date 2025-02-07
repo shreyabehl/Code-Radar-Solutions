@@ -4,16 +4,11 @@
 #include <stdio.h>
 
 int main() {
-    char word[100]; 
-
+    int num;
+    scanf("%d", &num);  // User se ek integer input lena
     
-    printf("Enter a single word: ", hello);
-
+    printf("Hexadecimal: %X\n", num); // %X hexadecimal print karega
+    printf("Octal: %o\n", num);       // %o octal print karega
     
-    scanf("%s", word);
-
-    
-    printf("You entered: %s\n", word);
-
     return 0;
 }
