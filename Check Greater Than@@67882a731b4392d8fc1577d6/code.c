@@ -1,18 +1,18 @@
 
 
+
+
 #include <stdio.h>
 
 int main() {
     int a, b;
-    
-    // Input: Read two space-separated integers
     scanf("%d %d", &a, &b);
     
-    // Output: Check if a is greater than b
-    if (a > b)
+    if (a > b) {
         printf("True\n");
-    else
+    } else {
         printf("False\n");
-
+    }
+    
     return 0;
 }
