@@ -6,13 +6,18 @@
 int main() {
     int num, i;
 
-    // Taking input from user
+    // Asking for user input
     printf("Enter a number: ");
-    scanf("%d", &num);
+    
+    // Taking input
+    if (scanf("%d", &num) != 1) {
+        printf("Invalid input! Please enter a valid number.\n");
+        return 1;
+    }
 
-    // Printing multiplication table
+    // Printing the multiplication table
     printf("Multiplication Table of %d:\n", num);
-    for(i = 1; i <= 10; i++) {
+    for (i = 1; i <= 10; i++) {
         printf("%d x %d = %d\n", num, i, num * i);
     }
 
