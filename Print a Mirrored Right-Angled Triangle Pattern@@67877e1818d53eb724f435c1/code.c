@@ -1,6 +1,5 @@
 
 
-
 #include <stdio.h>
 
 int main() {
@@ -9,10 +8,10 @@ int main() {
 
     for (int i = 1; i <= N; i++) {  // Loop for rows
         for (int j = 1; j <= N - i; j++) {  // Print spaces
-            printf("  ");  
+            printf(" ");
         }
         for (int k = 1; k <= i; k++) {  // Print stars
-            printf("* ");
+            printf("*");
         }
         printf("\n");  // Move to the next line
     }
