@@ -3,19 +3,21 @@
 #include <stdio.h>
 
 int main() {
-    int N, sum = 0;
-
+    int N;
+    
     // Taking input
     scanf("%d", &N);
 
-    // Calculating sum using loop
+    // Printing numbers from 1 to N
     for (int i = 1; i <= N; i++) {
-        sum += i;
+        if (i == N)
+            printf("%d", i);  // Avoids extra space at the end
+        else
+            printf("%d ", i); // Space after number
     }
-
-    // Printing the result with a strict format
-    printf("%d\n", sum);
-
+    
+    printf("\n"); // Ensuring proper formatting with a newline
+    
     return 0;
 }
 
