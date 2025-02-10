@@ -8,6 +8,6 @@ double findArea(int r)
 
 int main()
 {
-    printf("Area is %2f", findArea(5));
+    printf("Area is %.2f", findArea(5));
     return 0;
 }
