@@ -4,7 +4,7 @@
 #define PI 3.142
 
 double findArea(int r) 
-{ return PI * pow(r, 2); }
+{ return PI * r * r; }
 
 int main()
 {
