@@ -4,11 +4,11 @@
 #include <stdio.h>
 
 int main() {
-    int num;
-    scanf("%d", &num);  // Read input
+    int num;  // initialization
+    scanf("%d", &num); 
 
-    // Check even or odd
-    if (num % 2 == 0) {
+    
+    if (num % 2 == 0) { 
         printf("Even\n");
     } else {
         printf("Odd\n");
@@ -16,3 +16,23 @@ int main() {
 
     return 0;
 }
+
+
+int main()  {
+    int num;
+    scanf("%d", &num);
+
+
+
+
+    if (num % 2 == 0) {
+        printf("Even\n");
+
+    } else {
+        printf("Odd\n")
+    }
+
+    return 0;
+}
+
+
