@@ -1,19 +1,14 @@
 
 
-
-
 #include <stdio.h>
-
-int main() {
-    int N;
-    scanf("%d", &N);  // Read input
-
-    for (int i = 0; i < N; i++) {  // Loop for rows
-        for (int j = 0; j < N; j++) {  // Loop for columns
-            printf("* ");
+int main()
+{
+    int i,j;
+    for(i = 1; i <= 2; i++)
+    {
+        for(j = 1; j <= 2; j++)
+        {printf("*")
         }
-        printf("\n");  // Move to the next line
+        printf("\n")
     }
-
-    return 0;
 }
