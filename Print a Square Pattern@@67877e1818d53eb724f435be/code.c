@@ -8,7 +8,7 @@ int main()
     {
         for(j = 1; j <= n; j++)  // Inner loop runs 2 times for each iteration of the outer loop
         {
-            printf("*");
+            printf("* ");
         }
         printf("\n");  // Move to a new line after printing 2 stars
     }
