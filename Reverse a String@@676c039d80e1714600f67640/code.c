@@ -1,3 +1,43 @@
+#include <stdio.h>
+#include <string.h>
+int main(){
+    int i,j;
+    char a[100];
+    printf("Enter a string: ");
+
+    scanf("%s",a );
+
+    printf("ABC: ");
+    return 0;
+    
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -16,7 +56,7 @@ void reverseString(char str[]) {
 int main() {
     char str[] = "Welcome to Code Radar!";
     
-    reverseString(str);  // Reverse the string
+    reverseString(str); 
     printf("Reversed String: %s\n", str);
     
     return 0;
