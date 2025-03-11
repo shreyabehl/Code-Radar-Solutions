@@ -7,10 +7,11 @@ int i, count = 0;
 printf("enter a string: ");
 scanf("%s", a);
 
-for(i = 0; a[i] != '\0'; i++) { if (str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || 
-            str[i] == 'o' || str[i] == 'u' || str[i] == 'A' || 
-            str[i] == 'E' || str[i] == 'I' || str[i] == 'O' || 
-            str[i] == 'U') {
+for(i = 0; a[i] != '\0'; i++)
+ { if (a[i] == 'a' || a[i] == 'e' || a[i] == 'i' || 
+            a[i] == 'o' || a[i] == 'u' || a[i] == 'A' || 
+            a[i] == 'E' || a[i] == 'I' || a[i] == 'O' || 
+            a[i] == 'U') {
             count++; 
         }
     }
