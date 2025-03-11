@@ -16,7 +16,7 @@ int main(){
       }
       
       
-      if(isPalindrome) {
+      if(is Palindrome) {
         printf("Yes\n");
     } else {
         printf("No\n");
