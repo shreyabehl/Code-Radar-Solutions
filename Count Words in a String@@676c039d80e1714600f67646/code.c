@@ -3,7 +3,7 @@
 #include <string.h>
 int main(){
     char a [100];
-    int i, count = 0 ;
+    int i, count = 0,n ;
 
     scanf("%s", &a);
     
