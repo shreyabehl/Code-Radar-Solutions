@@ -16,6 +16,8 @@ int main(){
         if (a[i] == ' ' && a[i + 1] != ' ')
         count++;
     
-    printf("number of words in string is: ");
+
+    printf("%d\n", count + 1);  
+    
     } 
     }
