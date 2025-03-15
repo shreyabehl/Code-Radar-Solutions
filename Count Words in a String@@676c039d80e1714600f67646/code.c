@@ -5,7 +5,9 @@ int main(){
     char a [100];
     int i, count = 0 ;
 
-    scanf("%s", &a);
+    
+
+    scanf(" %[^\n]s", a);
     
     int n = strlen(a);
     
