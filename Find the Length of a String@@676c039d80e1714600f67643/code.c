@@ -1,19 +1,21 @@
 
 
+
+
+
 #include <stdio.h>
 
 int main() {
-    int i = 0;
     char a[100];
+    int i, count = 0;
 
-    printf("Enter a string: ");
-    scanf(" %[^\n]", a); 
+    scanf(" %[^\n]", a);
 
-    while (a[i] != '\0') { 
-        i++;
+    for (i = 0; a[i] != '\0'; i++) {
+        count++;
     }
 
-    printf("Length of the string: %d\n", i);
-    
+    printf("%d\n", count);
+
     return 0;
 }
