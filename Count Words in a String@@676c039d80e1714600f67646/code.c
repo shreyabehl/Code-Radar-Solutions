@@ -7,7 +7,7 @@ int main(){
 
     
 
-    scanf(" %[^\n]s", a);
+    scanf(" %[^\n]", a);
     
     int n = strlen(a);
     
@@ -17,7 +17,8 @@ int main(){
         count++;
     
 
-    printf("%d\n");  
+    
     
     } 
+    printf("%d\n", count + 1);  
     }
