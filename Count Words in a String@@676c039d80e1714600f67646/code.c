@@ -12,7 +12,7 @@ int main(){
     int n = strlen(a);
     
 
-    for (i = 0; i < strlen(a); i++){
+    for (i = 0; i < n; i++){
         if (a[i] == ' ' && a[i + 1] != ' ')
         count++;
     
