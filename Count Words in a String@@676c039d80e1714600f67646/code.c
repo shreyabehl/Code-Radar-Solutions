@@ -11,7 +11,10 @@ int main(){
     
     int n = strlen(a);
     
-
+ if (i == n) {
+        printf("0\n");
+        return 0;
+    }
     for (i = 0; i < n; i++){
         if (a[i] == ' ' && a[i + 1] != ' ' && a[i + 1] != '\0')
         count++;
