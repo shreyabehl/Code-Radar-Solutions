@@ -12,7 +12,7 @@ int main() {
     scanf("%s", str2);
    
 
-    for (i = 0; a[i] != '\0'; ++i);
+    for (i = 0; str1[i] != '\0'; ++i);
     for (j = 0; str2[j]!='\0'; ++j, ++i) 
     
     {
