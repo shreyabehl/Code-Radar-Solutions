@@ -1,21 +1,24 @@
 #include <stdio.h>
+int main(){
+    char str[100];
+    int i, j, n = 0;
 
-int main() {
-    char str[26], n;
-    int i, count = 0;
+    scanf("%s", str);
 
-    
-    scanf("%s", str);  
+    for(i = 0; str[i] != '\0'; i++)
 
-    
-    scanf(" %c", &n);  
-
-    
-    for (i = 0; str[i] != '\0'; i++) {
-        if (str[i] == n)
-            count++;  
+    {
+    int count = 1;
+    for(j = 0; str[i] != '\0'; j++){
+        if (str[i] == str[j]) {
+            count++;
+        }
     }
+}
 
-    printf("%d", count);
-    return 0;
+printf("%c\n", j);  
+
+return 0;
+    
+
 }
