@@ -8,8 +8,8 @@ int main() {
     char str1[50], str2[50], i, j;
    
    
-    scanf("%s", str1);
-    scanf("%s", str2);
+    scanf("%[^/n]", str1);
+    scanf("%[^/n]", str2);
    
 
     for (i = 0; str1[i] != '\0'; ++i);
