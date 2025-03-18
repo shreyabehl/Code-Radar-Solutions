@@ -12,7 +12,7 @@ int main() {
     getchar(); 
 
   
-    printf("Enter character to count: ");
+    
     scanf("%c", &n);
 
 
