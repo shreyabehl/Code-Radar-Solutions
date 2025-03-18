@@ -5,7 +5,8 @@
 #include <stdio.h>
 
 int main() {
-    char str1[50], str2[50], i, j;
+    char str1 [100], str2 [100];
+    int i, j;
    
    
     scanf("%[^\n]", str1);
