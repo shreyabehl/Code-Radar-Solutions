@@ -10,7 +10,7 @@ int main(){
 
     scanf("%c", &j); 
 
-    for ( k = 0; k != '\0'; i++){
+    for ( k = 0; k != '\0'; k++){
         if(str[k] == i) {
               str[k] = j;  
         }
