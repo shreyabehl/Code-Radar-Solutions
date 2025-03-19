@@ -6,9 +6,9 @@ int main(){
 
     scanf("%s", str);
 
-    scanf("%c", i);
+    scanf("%c", &i);
 
-    scanf("%c", j); 
+    scanf("%c", &j); 
 
     for ( k = 0; k != '\0'; i++){
         if(str[k] == i) {
