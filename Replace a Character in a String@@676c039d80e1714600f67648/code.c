@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main(){
     char str [100];
-    int i, j, k;
+    char i, j;
+    int k;
 
 
     scanf("%s", str);
