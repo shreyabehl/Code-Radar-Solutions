@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    char a [100];
+    char str [100];
     int i, j, k;
 
 
