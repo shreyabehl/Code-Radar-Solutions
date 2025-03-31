@@ -19,17 +19,8 @@ int main(){
 
     }
     printf("%d %d\n", n++, j++ );
+    return 0;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
