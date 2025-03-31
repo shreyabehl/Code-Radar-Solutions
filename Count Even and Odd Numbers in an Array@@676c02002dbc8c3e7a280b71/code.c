@@ -25,7 +25,7 @@ int main(){
 
 
     }
-    printf("%d %d\n", n, j );
+    printf("%d %d\n", j, k);
     return 0;
 }
 
