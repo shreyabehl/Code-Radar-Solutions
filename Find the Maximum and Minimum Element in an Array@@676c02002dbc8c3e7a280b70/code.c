@@ -1,6 +1,6 @@
 // wap in c that finds both the max and min elements in an integer array. the program should read the array elements from user and then input the man and min elements
 
-x#include <stdio.h>
+#include <stdio.h>
 
 int main() {
     int n;
