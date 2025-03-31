@@ -1,6 +1,11 @@
 
 
 
+
+
+
+
+
 #include <stdio.h>
 int main(){
    int i, n, j, k;
@@ -21,7 +26,7 @@ int main(){
 
 
     }
-    printf("%d %d\n", n++, j++ );
+    printf("%d %d\n", n, j );
     return 0;
 }
 
