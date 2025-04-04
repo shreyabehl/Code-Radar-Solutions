@@ -16,7 +16,7 @@ int main(){
             k++;
         }
     }
-    printf("%d %d\n", j, k)
+    printf("%d %d\n", j, k);
 }
 
 
