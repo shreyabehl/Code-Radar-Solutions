@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int i, n, j, k;
+    int i, n, j = 0, k = 0;
     scanf("%d", &n);
     int arr[n];
     for(i = 0; i < n; i++){
@@ -18,8 +18,6 @@ int main(){
     }
     printf("%d %d\n", j, k);
 }
-
-
 
 
 
