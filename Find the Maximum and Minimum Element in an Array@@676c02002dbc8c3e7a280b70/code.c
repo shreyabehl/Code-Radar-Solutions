@@ -8,11 +8,12 @@ int main(){
         scanf("%d", &arr[i]);
         
     }
-    int max = [0], int min = [0];
+    int max = arr[0], int min = arr[0];
 
     for(i = 1; i < n; i++){
-       if (arr[i] > arr[i + 1]);
+       if (arr[i] > arr[i + 1]){
        max = arr[i];
+       }
     }
     if (arr[i] < arr[i + 1]) {
         min = arr[i];
