@@ -24,25 +24,16 @@ int main(){
            
           }
         }
-
-    else {
-        if (arr[i] > arr[i - 1])
-        {
-            if (arr[i] > arr[i + 1])
-        
-       { printf("%d\n", arr[i]);
-       }
-
-    }
+      else {
+    if (arr[i] > arr[i - 1]) {
+        if (arr[i] > arr[i + 1]) {
+            printf("%d\n", arr[i]);
         }
-
+    }
+}
 
     }
     printf("-1\n");
     return 0;
 }
-
-
-
-
 
