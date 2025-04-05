@@ -16,9 +16,12 @@ int main(){
             printf("%d\n", arr[i]);
 
           }
-          else if (arr[i] > arr[i - 1])
+          else if (i == n - 1)
           {
-           printf("%d\n", arr[i]);
+            if (arr[i] > arr[i - 1]) {
+                printf("%d\n", arr[i]);
+                
+           
           }
         }
 
