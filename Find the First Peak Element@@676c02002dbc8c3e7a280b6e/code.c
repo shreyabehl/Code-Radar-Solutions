@@ -8,13 +8,13 @@ int main()
     scanf("%d", &arr[i]);
 
     }
-    for(i = 0; i < n; i++){
+    for(int i = 0; i < n; i++){
         if (i == 0) {
          if ( arr[i] > arr[i + 1]){
             printf("%d", &arr[i]);
 
          }
-         else (i == n - 1){
+         else if (i == n - 1){
             if ( arr[i] > arr[i - 1]){
                 printf("%d", &arr[i]);
             }
@@ -31,7 +31,6 @@ int main()
     }
     printf("-1\n");
 }
-
 
 
 
