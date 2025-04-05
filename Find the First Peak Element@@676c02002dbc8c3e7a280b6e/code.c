@@ -20,6 +20,7 @@ int main(){
           {
            printf("%d\n", arr[i]);
           }
+        }
 
     else {
         if (arr[i] > arr[i - 1])
