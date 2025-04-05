@@ -18,7 +18,7 @@ int main(){
           }
           else if (arr[i] > arr[i - 1])
           {
-           printf("%d\n" &arr[i]);
+           printf("%d\n", &arr[i]);
           }
 
     else {
