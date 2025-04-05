@@ -1,36 +1,55 @@
+
+
+
+
+
+
 #include <stdio.h>
-int main()
-{
+
+int main() {
     int n;
-    scanf("%d", &n);
+    scanf("%d", &n);  // Number of elements
+
     int arr[n];
-    for(int i = 0; i < n; i++){
-    scanf("%d", &arr[i]);
-
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);  // Array input
     }
-    for(int i = 0; i < n; i++){
-        if (i == 0) {
-         if ( arr[i] > arr[i + 1]){
-            printf("%d", &arr[i]);
 
-         }
-         else if (i == n - 1){
-            if ( arr[i] > arr[i - 1]){
-                printf("%d", &arr[i]);
+    for (int i = 0; i < n; i++) {
+        if (i == 0) {  // First element case
+            if (arr[i] > arr[i + 1]) {
+                printf("%d\n", arr[i]);
+                return 0;
             }
-         }
-         else {
+        } 
+        else if (i == n - 1) {  // Last element case
+            if (arr[i] > arr[i - 1]) {
+                printf("%d\n", arr[i]);
+                return 0;
+            }
+        } 
+        else {  // Middle elements
             if (arr[i] > arr[i - 1]) {
                 if (arr[i] > arr[i + 1]) {
-                     printf("%d\n", arr[i]);
+                    printf("%d\n", arr[i]);
                     return 0;
                 }
             }
-         }
         }
     }
-    printf("-1\n");
+
+    printf("-1\n");  // No peak found
+    return 0;
 }
+
+
+
+
+
+
+
+
+
 
 
 
