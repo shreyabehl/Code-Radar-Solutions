@@ -1,40 +1,49 @@
 // Your code here...
 #include <stdio.h>
-int main(){
-    int i, n;
+
+int main() {
+    int n, i;
     scanf("%d", &n);
     int arr[n];
+
     for (i = 0; i < n; i++) {
-        scanf("%d", &arr[n]);
-
-
+        scanf("%d", &arr[i]);
     }
 
     int max = arr[0];
-    for (i = 0; i < n; i++) 
-    {if (arr[i] > max);
-    {
-        max = arr[i];
-    }
+    for (i = 1; i < n; i++) {
+        if (arr[i] > max) {
+            max = arr[i];
+        }
     }
 
-    int second = -1;
-    for (i = 0; i < n; i++)
-    {
+    // Use a very small number instead of -1 to avoid garbage
+    int found = 0;
+    int second = max;
+
+    for (i = 0; i < n; i++) {
         if (arr[i] < max) {
-            if (second == -1) {
+            if (found == 0) {
                 second = arr[i];
-            }
-            else {
+                found = 1;
+            } else {
                 if (arr[i] > second) {
                     second = arr[i];
                 }
-
             }
         }
-        
     }
-printf("%d\n", second);
+
+    if (found == 0) {
+        printf("-1\n");
+    } else {
+        printf("%d\n", second);
+    }
+
     return 0;
-    
 }
+
+
+
+
+
