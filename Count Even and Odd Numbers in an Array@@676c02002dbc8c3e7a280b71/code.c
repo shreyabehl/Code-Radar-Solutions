@@ -15,12 +15,8 @@ int main(){
     else {
         k++;
     }
+    printf("%d %d\n", j, k);
 }
-
-
-
-
-
 
 
 
