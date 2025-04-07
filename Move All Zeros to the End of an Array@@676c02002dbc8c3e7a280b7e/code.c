@@ -19,7 +19,7 @@ int main(){
      for (i = 0; i < n; i++) {
         if (n == 0) {
             j++;
-            printf("%d", "0");
+            printf("%d\n", "0");
 
         }
         
