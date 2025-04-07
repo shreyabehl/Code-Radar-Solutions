@@ -3,8 +3,8 @@
 int main(){
     int i, n, j;
     scanf("%d", &n);
-    int arr[n];
-    int arr[j];
+    int arr[n], arr[j];
+    
     for (i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
 
