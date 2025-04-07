@@ -18,7 +18,7 @@ int main(){
     }
      for (i = 0; i < n; i++) {
         if (n == 0) {
-            j++;
+            i++;
             printf("%d\n", "0");
 
         }
