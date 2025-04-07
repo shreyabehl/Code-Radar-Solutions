@@ -28,7 +28,7 @@ int main(){
    for (i = 0; i < j; i++) {
 
    
-    printf("%d ", "0");
+    printf("0");
    }
 
     }
