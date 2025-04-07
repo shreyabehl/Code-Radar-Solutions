@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int main() {
-    int i, n, taget;
+    int i, n, target;
     scanf("%d", &n);
 
     int arr[n];
