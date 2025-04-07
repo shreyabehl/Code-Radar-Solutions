@@ -12,18 +12,24 @@ int main(){
     for (i = 0; i < n; i++) {
         
         if (arr[i] != 0) {
-            printf("%d", arr[i]);
+            printf("%d ", arr[i]);
          
         }
     }
      for (i = 0; i < n; i++) {
-        if (n == 0) {
-            i++;
-            printf("%d\n", "0");
+        if (arr[i] == 0) {
+            j++;
+            
 
         }
+
         
     }
+   for (i = 0; i < j; i++) {
+
+   
+    printf("%d ", "0");
+   }
 
     }
 
