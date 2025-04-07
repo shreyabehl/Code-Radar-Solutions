@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int main() {
-    int i, n, target;
+    int i, n, j;
     scanf("%d", &n);
 
     int arr[n];
@@ -9,11 +9,11 @@ int main() {
         scanf("%d", &arr[n]);
 
     }
-   scanf("%d", &target);
+   scanf("%d", &j);
    int index = -1;
 
     for(i = 0; i < n; i++) {
-        if(arr[i] == target) {
+        if(arr[i] == j) {
             index = i; 
             break;
         }
