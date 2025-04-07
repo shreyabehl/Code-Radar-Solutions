@@ -14,11 +14,11 @@ int main() {
 
     for(i = 0; i < n; i++) {
         if(arr[i] == j) {
-            index = i; 
+            c = i; 
             break;
         }
     }
 
-    printf("%d\n", index);
+    printf("%d\n", c);
     return 0;
 }
