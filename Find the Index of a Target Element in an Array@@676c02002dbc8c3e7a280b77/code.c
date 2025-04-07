@@ -1,4 +1,15 @@
-// Your code here...
+
+
+
+
+
+
+
+
+
+
+
+
 #include <stdio.h>
 int main() {
     int i, n, j;
@@ -10,7 +21,7 @@ int main() {
 
     }
    scanf("%d", &j);
-   int index = -1;
+   int c = -1;
 
     for(i = 0; i < n; i++) {
         if(arr[i] == j) {
