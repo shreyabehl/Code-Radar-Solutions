@@ -9,7 +9,7 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    // Initial max and min values
+    
     int max1 = arr[0];
     int max2 = arr[0];
     int min1 = arr[0];
