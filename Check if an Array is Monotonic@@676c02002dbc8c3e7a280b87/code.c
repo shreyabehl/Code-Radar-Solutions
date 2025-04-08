@@ -14,7 +14,7 @@ int main() {
             k++;
         }
 
-        if (arr[i] <= arr[i + 1]){
+        else if (arr[i] <= arr[i + 1]){
             j++;
         }
     }
