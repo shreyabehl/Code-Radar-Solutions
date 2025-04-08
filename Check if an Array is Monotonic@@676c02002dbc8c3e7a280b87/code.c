@@ -23,8 +23,11 @@ int main() {
         {
             printf("YES\n");
         }
+
+        if (j = n - 1)
         else {
             printf("No\n")
         }
     }
+}
     
