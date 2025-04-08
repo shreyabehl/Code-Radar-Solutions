@@ -25,7 +25,7 @@ int main() {
         }
 
         if (j = n - 1)
-        else {
+       { else 
             printf("No\n")
         }
     }
