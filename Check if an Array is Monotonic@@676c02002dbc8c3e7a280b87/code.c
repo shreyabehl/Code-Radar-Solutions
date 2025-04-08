@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int main() {
-    int i, n, j, k = 0;
+    int i, n, j = 0, k = 0;
     scanf("%d", &n);
     int arr[n];
 
@@ -10,12 +10,21 @@ int main() {
     }
     
     for (i = 0; i < n - 1; i++){
-        if (arr[i] > arr[i + 1])
-        
-        printf("NO\n");
+        if (arr[i] >= arr[i + 1]){
+            k++;
+        }
 
-        else {
+        if (arr[i] <= arr[i + 1]){
+            j++;
+        }
+        
+        if (l == n - 1)
+
+        {
             printf("YES\n");
         }
+        else {
+            printf("No\n")
         }
-    }
+        }
+    
