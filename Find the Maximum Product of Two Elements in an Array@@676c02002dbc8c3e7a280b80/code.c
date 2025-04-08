@@ -27,7 +27,7 @@ int main() {
 
 
  for (i = 0; i < n; i++){
-    if (min1 < arr[i]){
+    if (min1 > arr[i]){
         min2 = min1;
         min1 = arr[i];
     }
