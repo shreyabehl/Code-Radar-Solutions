@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main() {
-    int i, j, n;
+    int i, j = 0, n, k = 0;
     scanf("%d", &n);
     int arr[n];
 
@@ -10,39 +10,13 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    int a = 0;            
-    int b = arr[0];       
-
-    for (i = 0; i < n; i++) {
-        int count = 0;        
-
-        for (j = 0; j < n; j++) {
-            if (arr[i] == arr[j]) {
-                count++;
-            }
+    for (i = 0; i < n; i++){
+        if (arr[i] != arr[i + 1]){
+            j++;
         }
 
-        if (count > a) {
-            a = count;
-            b = arr[i];
-        } else {
-            if (count == a) {
-                if (arr[i] < b) {
-                    b = arr[i];
-                }
-            }
+        else {
+         k++;
         }
     }
-
-    printf("%d\n", b);
-    return 0;
 }
-
-
-
-
-
-
-
-
-
