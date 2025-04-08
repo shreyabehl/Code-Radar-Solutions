@@ -33,7 +33,7 @@ int main() {
     }
 
     else if (arr[i] < min2) {
-        min 2 = arr[i];
+        min2 = arr[i];
     }
  }
 printf(" %d\n", max1 * max2);
