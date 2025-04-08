@@ -18,6 +18,7 @@ int main() {
             j++;
         }
     }
+    printf("%d",k);
         if (k == n - 1)
 
         {
