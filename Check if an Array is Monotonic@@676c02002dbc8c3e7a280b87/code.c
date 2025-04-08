@@ -18,13 +18,13 @@ int main() {
             j++;
         }
         
-        for (k = n - 1)
+        if (k = arr[i] - 1)
 
         {
             printf("YES\n");
         }
 
-        for (j = n - 1)
+        if (j = arr[i] - 1)
          {
             printf("YES\n");
         }
