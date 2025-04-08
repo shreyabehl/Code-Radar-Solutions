@@ -26,11 +26,11 @@ int main() {
 
         if (j = n - 1)
          {
-            printf("YES\n")
+            printf("YES\n");
         }
 
         else { 
-            printf("NO\n")
+            printf("NO\n");
     }
 }
     
