@@ -25,9 +25,11 @@ int main() {
         }
 
         if (j = n - 1)
-       { else 
-            printf("No\n")
+         {
+            printf("YES\n")
         }
+
+        else ("NO\n")
     }
 }
     
