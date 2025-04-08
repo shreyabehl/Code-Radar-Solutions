@@ -24,7 +24,7 @@ int main() {
             printf("YES\n");
         }
 
-        if (j = n - 1)
+        if (j = n + 1)
          {
             printf("YES\n");
         }
