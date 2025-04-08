@@ -10,10 +10,9 @@ int main() {
     }
     
     for (i = 0; i < n - 1; i++){
-        for (j = i + 1; j < n; j++){
-            if (arr[i] < arr[j])
+        if (arr[i] > arr[i + 1])
         
-        printf("YES\n");
+        printf("NO\n");
 
         else {
             printf("NO\n");
