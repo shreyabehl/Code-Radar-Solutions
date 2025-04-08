@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int main() {
-    int i, n, k, j;
+    int i, n, k = 0, j;
     scanf("%d", &n);
     int arr[n];
 
@@ -12,7 +12,7 @@ int main() {
 
     for (i = 0; i < n - 1; i++) {
 
-        for (j = i - 1; j < n; j++) {
+        for (j = i + 1; j < n; j++) {
            if (arr[i] == arr[j])
         {
             k++;
