@@ -1,25 +1,48 @@
 // Your code here...
 #include <stdio.h>
+
 int main() {
-    int i, n, k = 0, j;
+    int i, j, n;
     scanf("%d", &n);
     int arr[n];
 
     for (i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
-
     }
 
-    for (i = 0; i < n - 1; i++) {
+    int a = 0;            
+    int b = arr[0];       
 
-        for (j = i + 1; j < n; j++) {
-           if (arr[i] == arr[j])
-        {
-            k++;
+    for (i = 0; i < n; i++) {
+        int count = 0;        
+
+        for (j = 0; j < n; j++) {
+            if (arr[i] == arr[j]) {
+                count++;
+            }
         }
 
+        if (c > a) {
+            a = c;
+            b = arr[i];
+        } else {
+            if (count == a) {
+                if (arr[i] < b) {
+                    b = arr[i];
+                }
+            }
         }
-       
     }
-      printf("%d\n", k);
+
+    printf("%d\n", b);
+    return 0;
 }
+
+
+
+
+
+
+
+
+
