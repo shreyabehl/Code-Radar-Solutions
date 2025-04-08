@@ -36,7 +36,15 @@ int main() {
         min2 = arr[i];
     }
  }
-printf(" %d\n", max1 * max2);
-    printf(" %d\n", min1 * min2);
+
+ int a = max1 * max2;
+ int b = min1 * min2;
+ if (a > b) {
+printf(" %d\n", a);
+ }
+
+ else {
+    printf(" %d\n", b);
+ }
     
 }
