@@ -18,13 +18,13 @@ int main() {
             j++;
         }
         
-        if (k = n - 1)
+        for (k = n - 1)
 
         {
             printf("YES\n");
         }
 
-        if (j = n + 1)
+        for (j = n - 1)
          {
             printf("YES\n");
         }
