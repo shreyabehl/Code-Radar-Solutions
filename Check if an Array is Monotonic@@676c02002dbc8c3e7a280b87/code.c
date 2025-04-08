@@ -17,7 +17,7 @@ int main() {
         if (arr[i] <= arr[i + 1]){
             j++;
         }
-        
+    }
         if (k = n - 1)
 
         {
@@ -33,5 +33,5 @@ int main() {
             printf("NO\n");
     }
 }
-}
+
     
