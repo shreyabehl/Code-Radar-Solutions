@@ -22,8 +22,8 @@ int main() {
             }
         }
 
-        if (c > a) {
-            a = c;
+        if (count > a) {
+            a = count;
             b = arr[i];
         } else {
             if (count == a) {
