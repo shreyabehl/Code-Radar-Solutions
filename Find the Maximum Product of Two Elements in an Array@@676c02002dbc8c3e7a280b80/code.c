@@ -43,8 +43,8 @@ int main() {
 printf(" %d\n", a);
  }
 
- else {
+ else 
     printf(" %d\n", b);
- }
+ 
     
 }
