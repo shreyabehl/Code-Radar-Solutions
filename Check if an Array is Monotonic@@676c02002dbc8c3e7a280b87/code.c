@@ -15,8 +15,8 @@ int main() {
         }
         printf("YES");
 
-        else {
+        else (
             printf("NO");
-        }
+        )
     }
 }
