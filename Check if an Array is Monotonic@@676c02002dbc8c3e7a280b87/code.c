@@ -18,13 +18,13 @@ int main() {
             j++;
         }
     }
-        if (k = n - 1)
+        if (k == n - 1)
 
         {
             printf("YES\n");
         }
 
-        if (j = n - 1)
+        if (j == n - 1)
          {
             printf("YES\n");
         }
