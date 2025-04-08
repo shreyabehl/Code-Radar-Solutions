@@ -13,10 +13,10 @@ int main() {
         for (j = i + 1; j < n; j++){
             if (arr[i] < arr[j])
         
-        printf("YES");
+        printf("YES\n");
 
         else {
-            printf("NO");
+            printf("NO\n");
         }
         }
     }
