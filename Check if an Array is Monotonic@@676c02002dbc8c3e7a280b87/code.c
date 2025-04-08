@@ -9,7 +9,7 @@ int main() {
         scanf("%d", &arr[i]);
     }
     
-    for (i = 0; i < n ; i++){
+    for (i = 0; i < n-1 ; i++){
         if (arr[i] >= arr[i + 1]){
             k++;
         }
@@ -25,7 +25,7 @@ int main() {
             printf("YES\n");
         }
 
-        if (j == n - 1)
+        else if (j == n - 1)
          {
             printf("YES\n");
         }
