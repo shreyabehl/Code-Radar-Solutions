@@ -29,7 +29,8 @@ int main() {
             printf("YES\n")
         }
 
-        else ("NO\n")
+        else { 
+            printf("NO\n")
     }
 }
     
