@@ -15,7 +15,7 @@ int main() {
     int min1 = arr[0];
     int min2 = arr[0];
 
-    // Find max1 and max2
+   
     for (i = 1; i < n; i++) {
         if (arr[i] > max1) {
             max2 = max1;
@@ -29,7 +29,7 @@ int main() {
         }
     }
 
-    // Find min1 and min2
+   
     for (i = 1; i < n; i++) {
         if (arr[i] < min1) {
             min2 = min1;
