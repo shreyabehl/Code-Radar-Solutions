@@ -18,7 +18,7 @@ int main() {
             j++;
         }
         
-        if (l == n - 1)
+        if (l = n - 1)
 
         {
             printf("YES\n");
