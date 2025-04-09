@@ -14,11 +14,11 @@ int main() {
     int ans = 1000001;
 
     for (int i = 0; i < 1000001; i++) {
-        if (freq[i] > b) {
-            b = freq[i];
+        if (a[i] > b) {
+            b = a[i];
             ans = i;
         } else {
-            if (freq[i] == b) {
+            if (a[i] == b) {
                 if (i < ans) {
                     ans = i;
                 }
