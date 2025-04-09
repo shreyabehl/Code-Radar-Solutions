@@ -1,4 +1,5 @@
-// Your code here...
+
+
 #include <stdio.h>
 
 int main() {
@@ -14,9 +15,11 @@ int main() {
         if (arr[i] != arr[i + 1]){
             j++;
         }
-
-        else {
-         k++;
-        }
+     else (arr[i + 1] = arr[i]){
+        k++;
+     }
+        
     }
+
+    printf("%d", arr[i]);
 }
