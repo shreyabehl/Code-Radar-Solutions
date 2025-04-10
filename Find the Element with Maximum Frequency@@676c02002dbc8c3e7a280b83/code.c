@@ -18,7 +18,7 @@ int main()
             for (j = i + 1; j < n; j++){
                 if (arr[i] = arr[j]) {
                     k++;
-                    arr[j] = -1
+                    arr[j] = -1;
                 }
             }
 
