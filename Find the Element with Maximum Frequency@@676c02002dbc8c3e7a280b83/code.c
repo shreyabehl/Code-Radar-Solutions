@@ -25,7 +25,7 @@ int main(){
         }
     }
 
-    printf("%d %d\n", max_e, max_f);
+    printf("%d %d\n", max_e);
     return 0;
 }
 
