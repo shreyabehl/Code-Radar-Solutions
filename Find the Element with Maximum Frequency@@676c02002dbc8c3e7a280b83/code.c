@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main(){
     int i, n, j, k;
     scanf("%d", &n);
@@ -18,14 +19,17 @@ int main(){
                     arr[j] = -1;  
                 }
             }
+
             if (k > max_f) {
                 max_f = k;
                 max_e = arr[i];
+            } else if (k == max_f && arr[i] < max_e) {
+                max_e = arr[i];  
             }
         }
     }
 
-    printf("%d %d\n", max_e, max_f);
+    printf("%d\n", max_e);
     return 0;
 }
 
