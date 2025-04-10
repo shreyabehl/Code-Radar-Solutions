@@ -7,19 +7,20 @@ int main(){
 
     for (i = 0; i < n; i++){
         scanf("%d", &arr[i]);
-    
-      for (i = 0; i < n; i++){
+    }
+      for (i = 0; i < n - 1; i++){
           k = 1;
         for (j = i + 1; j < n; j++){
             if (arr[i] == arr[j]){
                 k++;
             }
         }
+         printf("%d\n", arr[i], k);
       }
-    }
+    
     
 
-    printf("%d\n", arr[i], k);
+   
     }
 
 
