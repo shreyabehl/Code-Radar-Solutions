@@ -3,6 +3,7 @@ int main(){
     int i, n, j, k;
     scanf("%d", &n);
     int arr[n];
+    int max_f = 0, max_e;
 
     for (i = 0; i < n; i++){
         scanf("%d", &arr[i]);
@@ -17,11 +18,16 @@ int main(){
                     arr[j] = -1;
                 }
             }
-            printf("%d %d\n", arr[i], k);
+            if (k > max_f) {
+                max_f = k;
+                max_e = arr[i];
+            }
         }
     }
 
+    printf("%d %d\n", max_e, max_f);
     return 0;
 }
+
 
 
