@@ -29,7 +29,7 @@ int main() {
     }
 
     if(second == INT_MAX) {
-        printf("d\n");
+        printf("-1\n");
     } else {
         printf("%d\n", second);
     }
