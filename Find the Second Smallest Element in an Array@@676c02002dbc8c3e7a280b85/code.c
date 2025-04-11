@@ -5,11 +5,11 @@ int main(){
     scanf("%d", &n);
     int arr[n];
     for (i = 0; i < n; i++){
-        scanf("%d", arr[i]);
+        scanf("%d", &arr[i]);
     }
 
-    int a = INT_MAX;
-    int b = INT_MIN;
+    int a == INT_MAX;
+    int b == INT_MIN;
      
      for (i = 0; i < n; i++){
         if (arr[i] < a) {
