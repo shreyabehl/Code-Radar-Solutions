@@ -8,35 +8,35 @@ int main(){
         scanf("%d", &arr[i]);
     }
 
-    int a == INT_MAX;
-    int b == INT_MIN;
+    int first == INT_MAX;
+    int second == INT_MIN;
      
      for (i = 0; i < n; i++){
-        if (arr[i] < a) {
-            b = a;
-            a = arr[i];
+        if (arr[i] < first) {
+            second = first;
+            first = arr[i];
 
 
 
         }
         else {
-            if (arr[i] < b){
-                if (arr[i] != a){
-                    b = arr[i];
+            if (arr[i] < second){
+                if (arr[i] != first){
+                    second = arr[i];
                 }
             }
         }
         
      }
 
-     if (b = INT_MAX){
+     if (second = INT_MAX){
         printf("-1\n" );
 
      }
 
      else 
      {
-        printf("%d\n", b);
+        printf("%d\n", second);
      }
 
 }
